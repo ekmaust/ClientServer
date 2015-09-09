@@ -1,0 +1,12 @@
+module LSAApp
+{
+interface LSA
+{
+boolean findFile(in string fileName);
+boolean hasFile(in string fileName);
+void storeFile(in string fileName);
+void contactServer(in long i);
+string getRecord(in long recordNum);
+string sendFile(in string fileName);
+};
+};
